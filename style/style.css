@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+}
+.carousel-caption {
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+.pizzaType {
+    color: rgb(26, 109, 9);
+}
+.pizzaPrice {
+    color: rgb(26, 109, 9);
+}
