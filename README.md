@@ -11,7 +11,7 @@ Newton Gitau - Web Development Student at Moringa School.
 
 ## Installation
 1. Go to your prefered browser.
-2. In the url section of the browser enter this link; newtongitau.github.io/pizzeria/
+2. In the url section of the browser enter this link; [https://newtongitau.github.io/pizzeria](https://newtongitau.github.io/pizzeria)
 3. Hit enter to view the webpage.
 
 ## Languages
