@@ -58,3 +58,9 @@ footer {
 .dropdown-menu {
     padding-left: 17px;
 }
+header h1 {
+    color: rgb(26, 109, 9);
+}
+header p {
+    color: brown;
+}
