@@ -198,35 +198,35 @@
                   </button>
                   <ul class="dropdown-menu dropdown-menu-primary" aria-labelledby="dropdownMenuButton2">
                     <li>
-                      <input type="radio" id="classic" name="classic-pizza">
+                      <input type="radio" onclick="classic()" name="classic-pizza">
                       <label>HAWAIIAN</label><br>
                     </li>
                     <li>
-                      <input type="radio" id="classic" name="classic-pizza">
+                      <input type="radio" onclick="classic()" name="classic-pizza">
                       <label>BOEREWORS</label><br>
                     </li>
                     <li>
-                      <input type="radio" id="classic" name="classic-pizza">
+                      <input type="radio" onclick="classic()" name="classic-pizza">
                       <label>BBQ STEAK</label><br>
                     </li>
                     <li>
-                      <input type="radio" id="classic" name="classic-pizza">
+                      <input type="radio" onclick="classic()" name="classic-pizza">
                       <label>REGINA</label><br>
                     </li>
                     <li>
-                      <input type="radio" id="classic" name="classic-pizza">
+                      <input type="radio" onclick="classic()" name="classic-pizza">
                       <label>PERI-PERI CHICKEN</label><br>
                     </li>
                     <li>
-                      <input type="radio" id="classic" name="classic-pizza">
+                      <input type="radio" onclick="classic()" name="classic-pizza">
                       <label>CHICKEN & MUSHROOM</label><br>
                     </li>
                     <li>
-                      <input type="radio" id="classic" name="classic-pizza">
+                      <input type="radio" onclick="classic()" name="classic-pizza">
                       <label>CHICKEN TIKKA</label><br>
                     </li>
                     <li>
-                      <input type="radio" id="classic" name="classic-pizza">
+                      <input type="radio" onclick="classic()" name="classic-pizza">
                       <label>VEG TIKKA</label><br>
                     </li>
                   </ul>
@@ -342,11 +342,11 @@
                   </button>
                   <ul class="dropdown-menu dropdown-menu-primary" aria-labelledby="dropdownMenuButton2">
                     <li>
-                      <input type="radio" id="toppings" name="pizzaToppings">
+                      <input type="radio" id="extraToppings" name="pizzaToppings">
                       <label>EXTRA TOPPINGS</label><br>
                     </li>
                     <li>
-                      <input type="radio" id="toppings" name="pizzaToppings">
+                      <input type="radio" id="noExtraToppings" name="pizzaToppings">
                       <label>NO EXTRA TOPPINGS</label><br>
                     </li>
                   </ul>
@@ -385,7 +385,9 @@
           
 
             <p class="total" id="total-el"> Total Cost</p>
-            <p class="location" id="location-el">Delivery Location</p>
+            <p class="location" id="location-message">Delivery Location</p>
+
+            <strong>All Deliveries Cost 500kes </strong>
           </div>
           
           <footer>
