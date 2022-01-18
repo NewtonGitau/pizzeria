@@ -1,7 +1,7 @@
-# Delani Studio
+# Dominion Pizza Hut
 
 ## Description.
-This is a webpage design for Delani Studio detauling all design, development and services conducted.
+This is a webpage for the Dominion Pizza Hut pizzeria allowing order and delivery of pizzas to customers. 
 
 ## Version
 Current version V1.0
