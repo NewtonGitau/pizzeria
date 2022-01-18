@@ -68,7 +68,17 @@ function extra() {
   }
 }
 
+function checkOut() {
+  let pizzaCost = size();
+  let pizzaExtraCost = extra();
 
+  pizzaSum = pizzaCost + pizzaExtraCost + pizzaCrustPrice;
+
+  totalEl.innerHTML = "Total Cost: " + pizzaSum
+
+  size()
+  extra() 
+}
 
 
 
