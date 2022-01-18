@@ -18,10 +18,10 @@ Newton Gitau - Web Development Student at Moringa School.
 Languages mainly used are Java Script, HTML and CSS. 
 
 ## Screenshots
-![Screenshot](https://github.com/NewtonGitau/ip3/blob/main/assets/delani-studio-title.png)
-This is the look of the web page title.
+![Screenshot](https://github.com/NewtonGitau/pizzeria/blob/main/images/pizzeria1.png)
+This is the look of the web page header.
 
-![Screenshot](https://github.com/NewtonGitau/ip3/blob/main/assets/delani-studio-body.png)
+![Screenshot](https://github.com/NewtonGitau/pizzeria/blob/main/images/pizzeria2.png)
 This is a preview of the body of the webpage.
 
 ## Contributing
