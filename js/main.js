@@ -32,53 +32,7 @@ let classicPizza = document.getElementById("classic");
 let supremePizza = document.getElementById("supreme");
 
 
-function size() {
-  if (deluxePizza.ariaChecked == true || supremePizza.ariaChecked === true || classicPizza.ariaChecked == true && pizzaSizeLarge.ariaChecked == true) {
-    pizzaSize = deluxePizzaLargePrice;
-    return pizzaSize;
-  } else if (deluxePizza.ariaChecked == true || supremePizza.ariaChecked === true || classicPizza.ariaChecked == true && pizzaSizeMedium.ariaChecked == true) {
-    pizzaSize = deluxePizzaMediumPrice;
-    return pizzaSize;
-  } else {
-    pizzaSize = deluxePizzaSmallPrice;
-    return pizzaSize;
-  }
-}
 
-function extra() {
-  if (extraToppings.ariaChecked == true && pizzaDelivery.ariaChecked == true) {
-    extraCost = extraToppingsPrice + deliveryCost;
-    locationMessage.innerHTML = "Delivery Location: " + locationEl
-    return extraCost;
-  } else if (
-    extraToppings.ariaChecked == true &&
-    pizzaDelivery.ariaChecked == false
-  ) {
-    extraCost = extraToppingsPrice;
-    return extraCost;
-  } else if (
-    extraToppings.ariaChecked == false &&
-    pizzaDelivery.ariaChecked == true
-  ) {
-    extraCost = deliveryCost;
-    return extraCost;
-  } else {
-    extraCost = 0;
-    return extraCost;
-  }
-}
-
-function checkOut() {
-  let pizzaCost = size();
-  let pizzaExtraCost = extra();
-
-  pizzaSum = pizzaCost + pizzaExtraCost + pizzaCrustPrice;
-
-  totalEl.innerHTML = "Total Cost: " + pizzaSum
-
-  size()
-  extra() 
-}
 
 
 
