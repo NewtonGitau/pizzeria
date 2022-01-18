@@ -45,6 +45,29 @@ function size() {
   }
 }
 
+function extra() {
+  if (extraToppings.ariaChecked == true && pizzaDelivery.ariaChecked == true) {
+    extraCost = extraToppingsPrice + deliveryCost;
+    locationMessage.innerHTML = "Delivery Location: " + locationEl
+    return extraCost;
+  } else if (
+    extraToppings.ariaChecked == true &&
+    pizzaDelivery.ariaChecked == false
+  ) {
+    extraCost = extraToppingsPrice;
+    return extraCost;
+  } else if (
+    extraToppings.ariaChecked == false &&
+    pizzaDelivery.ariaChecked == true
+  ) {
+    extraCost = deliveryCost;
+    return extraCost;
+  } else {
+    extraCost = 0;
+    return extraCost;
+  }
+}
+
 
 
 
