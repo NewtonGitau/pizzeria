@@ -32,6 +32,19 @@ let classicPizza = document.getElementById("classic");
 let supremePizza = document.getElementById("supreme");
 
 
+function size() {
+  if (deluxePizza.ariaChecked == true || supremePizza.ariaChecked === true || classicPizza.ariaChecked == true && pizzaSizeLarge.ariaChecked == true) {
+    pizzaSize = deluxePizzaLargePrice;
+    return pizzaSize;
+  } else if (deluxePizza.ariaChecked == true || supremePizza.ariaChecked === true || classicPizza.ariaChecked == true && pizzaSizeMedium.ariaChecked == true) {
+    pizzaSize = deluxePizzaMediumPrice;
+    return pizzaSize;
+  } else {
+    pizzaSize = deluxePizzaSmallPrice;
+    return pizzaSize;
+  }
+}
+
 
 
 
